@@ -63,6 +63,8 @@ function generatePassword() {
   return password;
 }
 
+// Could not figure out how to get function below to work and shuffle my generated password array.
+
 // function shufflearray(password) {
 //   for (let i = password.length - 1; i > 0; i--)
 //   const shuffle = Math.floor(Math.random() * (i +1));
