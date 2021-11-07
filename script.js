@@ -66,10 +66,12 @@ function generatePassword() {
 // Could not figure out how to get function below to work and shuffle my generated password array.
 
 // function shufflearray(password) {
-//   for (let i = password.length - 1; i > 0; i--)
-//   const shuffle = Math.floor(Math.random() * (i +1));
-//   [password[i], password[shuffle]] = [password[shuffle], password[i]];
+//   for (let i = password.length - 1; i > 0; i--);
+//   var j = Math.floor(Math.random() * (i +1));
+//   [password[i], password[j]] = [password[j], password[i]];
 // }
+
+// password.slice(0, setlength);
 
 // Write password to the #password input
 function writePassword() {
